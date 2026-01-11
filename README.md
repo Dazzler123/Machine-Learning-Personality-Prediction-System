@@ -1,6 +1,6 @@
 # Machine Learning Personality Prediction System
 
-This project implements an end-to-end machine learning–based personality prediction system developed as part of the "MachineLearning Approach to Personality prediction" Kaggle competition.
+This project implements an end-to-end machine learning–based personality prediction system developed as part of the ["MachineLearning Approach to Personality prediction"](https://www.kaggle.com/competitions/ml-approach-to-personality)  Kaggle competition.
 
 The system predicts whether an individual is an Introvert or Extrovert based on behavioral and social attributes using supervised machine learning techniques.
 
