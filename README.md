@@ -20,9 +20,25 @@ The system predicts whether an individual is an Introvert or Extrovert based on 
 - Pandas, NumPy
 - Joblib
 
-## Repository Structure
+## Endpoints Exposed
 
-See individual folders for backend, frontend, model, and notebooks.
+### Health Check
+- GET /health
+
+### Predict Personality
+- POST /predict
+
+#### Sample JSON Input
+{
+  "Time_spent_Alone": 4,
+  "Social_event_attendance": 3,
+  "Going_outside": 2,
+  "Friends_circle_size": 5,
+  "Post_frequency": 2,
+  "Stage_fear": 1,
+  "Drained_after_socializing": 1
+}
+
 
 ## Disclaimer
 
