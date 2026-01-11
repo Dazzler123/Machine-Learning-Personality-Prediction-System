@@ -12,12 +12,12 @@ model = joblib.load("../model/personality_prediction_model.pkl")
 # feature order (MUST match training)
 FEATURE_ORDER = [
     "Time_spent_Alone",
+    "Stage_fear",
     "Social_event_attendance",
     "Going_outside",
+    "Drained_after_socializing",
     "Friends_circle_size",
-    "Post_frequency",
-    "Stage_fear",
-    "Drained_after_socializing"
+    "Post_frequency"   
 ]
 
 @app.route("/health", methods=["GET"])
