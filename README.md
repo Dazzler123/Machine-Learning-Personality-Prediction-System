@@ -1,4 +1,4 @@
-# Personality Prediction ML System
+# Machine Learning Personality Prediction System
 
 This project implements a machine learning–based personality prediction system developed as part of the CIS6005 – Computational Intelligence coursework.
 
@@ -43,3 +43,5 @@ The system predicts whether an individual is an Introvert or Extrovert based on 
 ## Disclaimer
 
 This project is developed for academic purposes.
+
+Designed and Developed by Dasindu Hewagamage.
